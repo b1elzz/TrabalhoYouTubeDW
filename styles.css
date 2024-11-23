@@ -1,0 +1,250 @@
+body, html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    top: 142px;
+    left: 372px;
+    
+}
+.titulo svg{
+    fill: red;
+    height: 50px;
+    width: 50px;
+}
+
+.card{
+    background-color: black;
+    height: 250px;
+    width: 600px;
+    position: relative;
+    border-radius: 10px;
+    border-bottom: solid red 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video{
+    position: absolute;
+    bottom: 115px;
+    display: flex;
+    align-items: center;
+    gap: 245px;
+    flex-direction: row;
+}
+
+.titulovideo{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.like{
+    background-color: black;
+    width: 80px;
+    height: 38px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+    color: white;
+}
+.like svg{
+    fill: white;
+    height: 15px;
+    width: 15px;
+}
+
+
+
+.superior3 button svg{
+    fill: white;
+    height: 20px;
+    width: 20px;
+}
+
+.superior3 button{
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.superior3 button:hover{
+    background-color: rgb(104, 100, 100);
+    border-radius: 50%;
+
+}
+
+
+
+.superior3 .b1{
+    position: absolute;
+    right: 90px;
+    top: 4px;
+}
+
+.superior3 .b2{
+    position: absolute;
+    right: 50px;
+    top: 4px;
+}
+
+.superior3 .b3{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+.telacheia button svg{
+    fill: white;
+    height: 20px;
+    width: 20px;
+}
+
+.telacheia button{
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 208px;
+    left: 554px;
+}
+
+.telacheia  button:hover{
+    background-color: rgb(104, 100, 100);
+   
+}
+
+.meio3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meio3 .frente svg{
+    fill: white;
+    height: 20px;
+    height: 20px;
+}
+
+.meio3 .tras svg{
+    fill: white;
+    height: 20px;
+    height: 20px;
+}
+
+.meio3 .pause svg{
+    fill: white;
+    height: 35px;
+    height: 35px;
+}
+
+.meio3 .frente{
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meio3 .tras{
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meio3 .pause{
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meio3  .frente:hover{
+    background-color: rgb(104, 100, 100);
+}
+
+.meio3  .tras:hover{
+    background-color: rgb(104, 100, 100);
+}
+
+.meio3  .pause:hover{
+    background-color: rgb(104, 100, 100);
+}
+
+.superior3{
+    display: none;
+}
+
+
+.telacheia{
+    display: none;
+}
+
+.meio3{
+    display: none;
+}
+
+.card:hover > .superior3{
+    display: block;
+}
+
+.card:hover > .telacheia{
+    display: block;
+}
+
+.card:hover > .meio3{
+    display: block;
+    display: flex;
+    flex-direction: row;
+}
